@@ -76,7 +76,7 @@ We name the entries by row, then column: $A_{12}$ is row 1, column 2, which is 1
 Matrices are useful because they **act on a vector** and produce a new vector.
 The rule is this: each entry of the output is the dot product of one *row* of the matrix with the input vector.
 
-$$
+```math
 A\mathbf{v} =
 \begin{bmatrix} 2 & 1 \\ 1 & 2 \end{bmatrix}
 \begin{bmatrix} 1 \\ 0 \end{bmatrix}
@@ -84,7 +84,7 @@ A\mathbf{v} =
 \begin{bmatrix} 2\times1 + 1\times0 \\ 1\times1 + 2\times0 \end{bmatrix}
 =
 \begin{bmatrix} 2 \\ 1 \end{bmatrix}
-$$
+```
 
 Vectors are written as columns when a matrix acts on them. 
 It is the same pair of numbers. 
